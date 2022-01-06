@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 226, 255);
+}
+.header{
+    margin: 50px;
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    border-left: 4px solid rebeccapurple;
+    padding-left: 10px;
+}
+span{
+    color: blueviolet;
+    border: cornflowerblue;
+}
+.description{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 120%;
+}
+.description p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rebeccapurple;
+    padding: 4px 10px;
+}
+
+.header-image img{
+    width: 50%;
+    margin-left: 250px;
+}
