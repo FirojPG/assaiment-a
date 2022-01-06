@@ -1,7 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(230, 226, 255);
+    background-color: rgb(243, 241, 255);
+    color: rgb(41, 41, 41);
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 40px;
 }
 .header{
     margin: 50px;
@@ -9,30 +14,124 @@
 }
 h1{
     font-size: 50px;
-    border-left: 4px solid rebeccapurple;
-    padding-left: 10px;
+    border-left: 4px solid #7900FF;
+    padding-left: 20px;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
 }
 span{
-    color: blueviolet;
-    border: cornflowerblue;
+    color: #3b74e4;
+    border: #7900FF;
+    font-family: 'Roboto Slab', serif;
 }
 .description{
     margin-top: 50px;
-    margin-left: 50px;
-    width: 120%;
+    margin-left: 45px;
+    width: 150%;
 }
 .description p{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 30px;
 }
 .link-btn{
     text-decoration: none;
     color: white;
-    background-color: rebeccapurple;
-    padding: 4px 10px;
+    background-color: #7900FF;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+i{
+    color: #3b74e4;
 }
 
 .header-image img{
-    width: 50%;
+    width: 60%;
     margin-left: 250px;
+}
+#mission{
+    text-align: center;
+    font-size: 35px;
+}
+.midel-part{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.logo-design{
+    padding-right: 60px;;
+}
+.logo-design img{
+    width: 100px;
+    margin-bottom: 25px;
+}
+.logo-design p{
+    text-align: justify;
+}
+.branding img{
+    width: 100px;
+    margin-bottom: 25px;
+}
+.branding p{
+    text-align: justify;
+}
+
+.modeling img{
+    width: 100px;
+    margin-bottom: 25px;
+}
+.modeling{
+    padding-left: 60px;
+}
+.modeling p{
+    text-align: justify;
+}
+.develop-your-branding{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+    margin-left: 100px;
+}
+h2{
+    font-size: 35px;
+}
+.develop-images img{
+    width: 400px;
+}
+.develop-content{
+    padding: 130px 100px 130px 90px;
+}
+.develop-content h2{
+    margin-bottom: 30px;
+}
+.develop-content p{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.read-link{text-decoration: none;
+color: white;
+background-color: #7900FF;
+padding: 10px 30px;
+border-radius: 10px;}
+
+.community{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+.community-images img{
+    width: 400px;
+}
+.community-content{
+    margin-left: 100px;
+    padding-right: 50px;
+}
+.community-content h2{
+    margin-bottom: 30px;
+}
+.community-content p{
+    margin-bottom: 20px;
+    line-height: 30px;
 }
