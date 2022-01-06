@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     color: rgb(41, 41, 41);
     font-family: 'Poppins', sans-serif;
 }
@@ -43,7 +43,7 @@ i{
 
 .header-image img{
     width: 60%;
-    padding-left: 250px;
+    padding-left: 100px;
 }
 .heading{
     text-align: center;
