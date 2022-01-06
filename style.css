@@ -1,15 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(243, 241, 255);
     color: rgb(41, 41, 41);
     font-family: 'Poppins', sans-serif;
 }
-body{
-    margin: 40px;
-}
 .header{
-    margin: 50px;
+    padding: 50px;
     display: flex;
 }
 h1{
@@ -25,13 +21,13 @@ span{
     font-family: 'Roboto Slab', serif;
 }
 .description{
-    margin-top: 50px;
-    margin-left: 45px;
+    padding-top: 50px;
+    padding-left: 45px;
     width: 150%;
 }
 .description p{
-    margin-top: 50px;
-    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     line-height: 30px;
 }
 .link-btn{
@@ -47,7 +43,7 @@ i{
 
 .header-image img{
     width: 60%;
-    margin-left: 250px;
+    padding-left: 250px;
 }
 .heading{
     text-align: center;
@@ -56,17 +52,33 @@ i{
 .midel-part{
     display: flex;
     justify-content: center;
-    margin: 100px;
+    padding: 100px;
 }
 .logo-design{
-    padding-right: 60px;;
+    padding-right: 60px;
+    background-color: #f4eaff;
+    border-radius: 10px;
+    padding: 40px 40px 40px 40px;
+}
+.logo-design:hover{
+    box-shadow: 6px 10px 10px #d4b3f7;
 }
 .logo-design img{
-    width: 100px;
-    margin-bottom: 25px;
+    width: 80px;
+    padding-bottom: 25px;
 }
 .logo-design p{
     text-align: justify;
+    padding-top: 10px;
+}
+.branding{
+    margin-left: 20px;
+    background-color: #c5d8ff;
+    border-radius: 10px;
+    padding: 40px 40px 40px 40px;
+}
+.branding:hover{
+    box-shadow: 6px 10px 10px #95b8ff;
 }
 .branding img{
     width: 100px;
@@ -74,24 +86,37 @@ i{
 }
 .branding p{
     text-align: justify;
+    padding-top: 10px;
 }
-
+.modeling{
+    margin-left: 20px;
+    background-color: #d9f2ff;
+    border-radius: 10px;
+    padding: 40px 40px 40px 40px;
+}
+.modeling:hover{
+    box-shadow: 6px 10px 10px #a1d4f0;
+}
 .modeling img{
     width: 100px;
     margin-bottom: 25px;
 }
-.modeling{
-    padding-left: 60px;
-}
 .modeling p{
     text-align: justify;
+    padding-top: 10px;
 }
 .develop-your-branding{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 100px;
-    margin-left: 100px;
+    padding-left: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: left;
+    background-position-y:100px;
+    background-position-x: 10px;
 }
 h2{
     font-size: 35px;
@@ -103,10 +128,10 @@ h2{
     padding: 130px 100px 130px 90px;
 }
 .develop-content h2{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .develop-content p{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     line-height: 30px;
 }
 .read-link{
@@ -120,21 +145,26 @@ border-radius: 10px;}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 100px;
-    margin-bottom: 80px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+    background-position-y: 250px;
 }
 .community-images img{
     width: 400px;
 }
 .community-content{
-    margin-left: 100px;
+    padding-left: 100px;
     padding-right: 50px;
 }
 .community-content h2{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .community-content p{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     line-height: 30px;
 }
 .read-btn{
@@ -155,31 +185,39 @@ border-radius: 10px;}
 }
 .client-images img{
     width: 400px;
-    margin-left: 100px;
+    padding-left: 100px;
 }
 .feedback-content{
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .feedback-content p{
     text-align: justify;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .footer{
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: ;
+}
+.footer{
+    background-color: rgb(2, 4, 27);
 }
 .thanks{
     text-align: center;
  }
 .footer h2{
+    color: white;
     font-family: 'Lobster', cursive;
+    padding-top: 40px;
 }
 .footer span{
-    color: #7900FF;
+    color: #3b74e4;
     font-family: 'Lobster', cursive;
 }
 .footer p{
     text-align: center;
-    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    letter-spacing: 2px;
+    color: rgb(148, 148, 163);
 }
