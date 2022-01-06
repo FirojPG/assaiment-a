@@ -49,7 +49,7 @@ i{
     width: 60%;
     margin-left: 250px;
 }
-#mission{
+.heading{
     text-align: center;
     font-size: 35px;
 }
@@ -109,7 +109,8 @@ h2{
     margin-bottom: 20px;
     line-height: 30px;
 }
-.read-link{text-decoration: none;
+.read-link{
+text-decoration: none;
 color: white;
 background-color: #7900FF;
 padding: 10px 30px;
@@ -120,6 +121,7 @@ border-radius: 10px;}
     justify-content: space-between;
     align-items: center;
     margin-right: 100px;
+    margin-bottom: 80px;
 }
 .community-images img{
     width: 400px;
@@ -134,4 +136,50 @@ border-radius: 10px;}
 .community-content p{
     margin-bottom: 20px;
     line-height: 30px;
+}
+.read-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #7900FF;
+    padding: 10px 30px;
+    border-radius: 10px
+}
+.color-blue{
+    font-size: 30px;
+}
+.client-feedback{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.client-images img{
+    width: 400px;
+    margin-left: 100px;
+}
+.feedback-content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.feedback-content p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.footer{
+    margin-top: 100px;
+    background-color: ;
+}
+.thanks{
+    text-align: center;
+ }
+.footer h2{
+    font-family: 'Lobster', cursive;
+}
+.footer span{
+    color: #7900FF;
+    font-family: 'Lobster', cursive;
+}
+.footer p{
+    text-align: center;
+    margin-top: 50px;
 }
